@@ -30,7 +30,6 @@ public class HomeService {
         System.out.println(this.cat.hashCode());
         System.out.println(this.dog.hashCode());
         System.out.println("List of animals:");
-        System.out.println("List of animals:");
         this.animals.forEach(Animal::makeSound);
     }
 }
